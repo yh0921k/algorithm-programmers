@@ -16,9 +16,3 @@ public class Problem001 {
   }
 }
 
-class Application {
-  public static void main(String[] args) {
-    Problem001 problem001 = new Problem001();
-    System.out.println(problem001.solution(123));
-  }
-}

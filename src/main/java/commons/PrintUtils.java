@@ -5,6 +5,10 @@ import java.util.Iterator;
 import java.util.List;
 
 public class PrintUtils<T> {
+  public static void print(Object data) {
+    System.out.println("Result : " + data);
+  }
+
   public static void print(int[] array) {
     Integer[] boxedArray = PrimitiveArrayWrapper.wrap(array);
     print(boxedArray);

@@ -2,14 +2,14 @@ package solution;
 
 import commons.PrintUtils;
 import commons.StopWatch;
-import solution.level1.Problem018;
+import solution.level1.Problem019;
 
 class Application {
   public static void main(String[] args) {
-    Problem018 problem = new Problem018();
+    Problem019 problem = new Problem019();
 
     StopWatch.start();
-    String solution = problem.solution(10000);
+    int solution = problem.solution(new int[] {4, 7, 12}, new boolean[] {true, false, true});
     StopWatch.stop();
 
     PrintUtils.print(solution);

@@ -2,14 +2,14 @@ package solution;
 
 import commons.PrintUtils;
 import commons.StopWatch;
-import solution.level1.Problem024;
+import solution.level1.Problem025;
 
 class Application {
   public static void main(String[] args) {
-    Problem024 problem = new Problem024();
+    Problem025 problem = new Problem025();
 
     StopWatch.start();
-    String solution = problem.solution("Zbcdefg");
+    boolean solution = problem.solution("a234");
     StopWatch.stop();
 
     PrintUtils.print(solution);

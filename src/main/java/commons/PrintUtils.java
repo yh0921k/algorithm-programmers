@@ -36,9 +36,9 @@ public class PrintUtils<T> {
 
   private static <T> void printIterator(Iterator<T> iterator) {
     System.out.print("\nIterator : [");
-    while(iterator.hasNext()) {
+    while (iterator.hasNext()) {
       System.out.print(iterator.next());
-      if(iterator.hasNext()) {
+      if (iterator.hasNext()) {
         System.out.print(", ");
       }
     }

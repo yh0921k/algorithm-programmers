@@ -2,18 +2,14 @@ package solution;
 
 import commons.PrintUtils;
 import commons.StopWatch;
-import solution.level1.Problem037;
+import solution.level1.Problem038;
 
 class Application {
   public static void main(String[] args) {
-    Problem037 problem = new Problem037();
+    Problem038 problem = new Problem038();
 
     StopWatch.start();
-    int[] solution =
-        problem.solution(
-            new String[] {"muzi", "frodo"},
-            new String[] {"muzi frodo", "muzi frodo", "muzi frodo", "frodo muzi"},
-            1);
+    int solution = problem.solution(100000000);
     StopWatch.stop();
 
     PrintUtils.print(solution);

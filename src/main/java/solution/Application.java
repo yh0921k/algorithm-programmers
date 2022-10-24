@@ -3,13 +3,14 @@ package solution;
 import commons.PrintUtils;
 import commons.StopWatch;
 import solution.level1.Problem046;
+import solution.level1.Problem047;
 
 class Application {
   public static void main(String[] args) {
-    Problem046 problem = new Problem046();
+    Problem047 problem = new Problem047();
 
     StopWatch.start();
-    int solution = problem.solution("2three45sixseven");
+    String solution = problem.solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"});
     StopWatch.stop();
 
     PrintUtils.print(solution);

@@ -2,15 +2,14 @@ package solution;
 
 import commons.PrintUtils;
 import commons.StopWatch;
-import solution.level1.Problem046;
-import solution.level1.Problem047;
+import solution.level1.Problem048;
 
 class Application {
   public static void main(String[] args) {
-    Problem047 problem = new Problem047();
+    Problem048 problem = new Problem048();
 
     StopWatch.start();
-    String solution = problem.solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"});
+    int solution = problem.solution(new int[] {3, 1, 2, 3});
     StopWatch.stop();
 
     PrintUtils.print(solution);

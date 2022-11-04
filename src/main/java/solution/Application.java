@@ -2,14 +2,14 @@ package solution;
 
 import commons.PrintUtils;
 import commons.StopWatch;
-import solution.level1.Problem060;
+import solution.level1.Problem061;
 
 class Application {
   public static void main(String[] args) {
-    Problem060 problem = new Problem060();
+    Problem061 problem = new Problem061();
 
     StopWatch.start();
-    String solution = problem.solution(new int[] {1, 3, 4, 6});
+    String solution = problem.solution("...!@BaT#*..y.abcdefghijklm");
     StopWatch.stop();
 
     PrintUtils.print(solution);

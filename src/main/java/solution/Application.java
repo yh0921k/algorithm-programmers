@@ -3,13 +3,14 @@ package solution;
 import commons.PrintUtils;
 import commons.StopWatch;
 import solution.level2.Problem001;
+import solution.level2.Problem002;
 
 class Application {
   public static void main(String[] args) {
-    Problem001 problem = new Problem001();
+    Problem002 problem = new Problem002();
 
     StopWatch.start();
-    String solution = problem.solution("1 2 3 4");
+    String solution = problem.solution("3people unFollowed me");
     StopWatch.stop();
 
     PrintUtils.print(solution);

@@ -2,15 +2,14 @@ package solution;
 
 import commons.PrintUtils;
 import commons.StopWatch;
-import solution.level2.Problem001;
-import solution.level2.Problem002;
+import solution.level2.Problem003;
 
 class Application {
   public static void main(String[] args) {
-    Problem002 problem = new Problem002();
+    Problem003 problem = new Problem003();
 
     StopWatch.start();
-    String solution = problem.solution("3people unFollowed me");
+    int solution = problem.solution(new int[] {1, 4, 2}, new int[] {5, 4, 4});
     StopWatch.stop();
 
     PrintUtils.print(solution);
